@@ -29,16 +29,16 @@ R is used for the ARIMA model and Python is used for the LSTM model.
 
 R can be used in jupyter notebooks by the following command,
 ```bash
-$ conda create -n r_env r-essentials r-base
+conda create -n r_env r-essentials r-base
 ```
 Then activate the environment using,
 ```bash
-$ conda activate r_env
-$ conda install r-forecast r-rsample r-ggplot2 r-labelled
+conda activate r_env
+conda install r-forecast r-rsample r-ggplot2 r-labelled
 ```
 
 For the python environment, install
 ```bash
-$ pip install scikit-learn keras numpy pandas matplotlib openpyxl
+pip install scikit-learn keras numpy pandas matplotlib openpyxl
 ```
 Run the ARIMA_LSTM.ipynb notebook to view the results.
